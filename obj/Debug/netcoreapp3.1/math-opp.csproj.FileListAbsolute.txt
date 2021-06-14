@@ -1,0 +1,13 @@
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\bin\Debug\netcoreapp3.1\math-opp.exe
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\bin\Debug\netcoreapp3.1\math-opp.deps.json
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\bin\Debug\netcoreapp3.1\math-opp.runtimeconfig.json
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\bin\Debug\netcoreapp3.1\math-opp.runtimeconfig.dev.json
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\bin\Debug\netcoreapp3.1\math-opp.dll
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\bin\Debug\netcoreapp3.1\math-opp.pdb
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.csprojAssemblyReference.cache
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.AssemblyInfoInputs.cache
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.AssemblyInfo.cs
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.csproj.CoreCompileInputs.cache
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.dll
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.pdb
+C:\Users\gruvi\source\CodeMonkey\videos\math-opp\obj\Debug\netcoreapp3.1\math-opp.genruntimeconfig.cache

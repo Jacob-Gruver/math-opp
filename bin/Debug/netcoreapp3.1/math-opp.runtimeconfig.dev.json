@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gruvi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gruvi\\.nuget\\packages"
+    ]
+  }
+}
