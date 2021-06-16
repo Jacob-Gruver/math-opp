@@ -6,7 +6,7 @@ namespace math_opp
     {
         static void Main(string[] args)
         {
-            App app = new App();
+            var app = new App();
             app.Run();
         }
     }
