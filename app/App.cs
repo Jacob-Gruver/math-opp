@@ -19,15 +19,14 @@ class App
     {
         Console.Clear();
 
-        Console.WriteLine("");
+        Console.WriteLine(@"
+            What do you want to solve?
 
-        Console.WriteLine("     What do you want to solve?");
 
-        Console.WriteLine("");
+            The Pythagorean Theorem = pt
 
-        Console.WriteLine("     the pythagorean theorem = pt");
-
-        // Console.WriteLine("     the  = pt");
+             Ohms Law = om
+        ");
 
         string choice = Console.ReadLine().ToLower();
 
@@ -35,6 +34,9 @@ class App
         {
             case "pt":
                 pythTheorem();
+                break;
+            case "om":
+                ohmLaw();
                 break;
 
             default:
@@ -50,15 +52,13 @@ class App
 
         Console.Clear();
 
-        Console.WriteLine("     The pythagorean theorem equation is A squared + B squared = C squared. ");
+        Console.WriteLine(@"
+            The pythagorean theorem equation is A squared + B squared = C squared.
 
-        Console.WriteLine("");
+            This program requires the user to input numbers to be filled in for A and B. C is the solution.
 
-        Console.WriteLine("     This program requires the user to input numbers to be filled in for A and B. C is the solution.");
-
-        Console.WriteLine("");
-
-        Console.WriteLine("     Input value for A.. ");
+            Input value for A..
+        ");
 
         string valA = Console.ReadLine();
 
@@ -86,6 +86,13 @@ class App
 
         continueChoice(contChoice);
 
+    }
+
+    private void ohmLaw()
+    {
+        Console.Clear();
+
+        Console.WriteLine("     ");
     }
 
     private void continueChoice(string choice)
