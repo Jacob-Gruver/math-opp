@@ -25,7 +25,7 @@ class App
 
             The Pythagorean Theorem = pt
 
-             Ohms Law = om
+            Ohms Law = om
         ");
 
         string choice = Console.ReadLine().ToLower();
@@ -38,7 +38,6 @@ class App
             case "om":
                 ohmLaw();
                 break;
-
             default:
                 Console.Clear();
                 Console.WriteLine("There is no current choice that matches your imput.. ");
@@ -92,7 +91,24 @@ class App
     {
         Console.Clear();
 
-        Console.WriteLine("     ");
+        Console.WriteLine(@"
+
+            Ohms Law is used to calculate the Voltage, Current, Resistance, & Power within a circuit. It is usualy depicted like this.
+
+            Voltage = Current * Resistance 
+
+            or
+
+            Power = Voltage * Current
+
+            Which opperation do you want to solve?
+        ");
+
+        string oppChoice = Console.ReadLine().ToLower();
+
+
+
+
     }
 
     private void continueChoice(string choice)
