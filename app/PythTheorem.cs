@@ -28,7 +28,7 @@ namespace math_opp
 
             var valAnum = 0.0;
 
-            while (valAnum == 0)
+            while (valAnum == 0.0)
             {
                 Console.WriteLine("    Input value for A..");
 
@@ -36,7 +36,7 @@ namespace math_opp
 
                 if (!double.TryParse(valA, out valAnum))
                 {
-                    Console.WriteLine("Error!");
+                    Console.WriteLine("Error! That isnt a Number");
                 }
             }
 
@@ -44,7 +44,7 @@ namespace math_opp
 
             var valBnum = 0.0;
 
-            while (valBnum == 0)
+            while (valBnum == 0.0)
             {
                 Console.WriteLine("     Now input value for B.. ");
 
@@ -52,7 +52,7 @@ namespace math_opp
 
                 if (!double.TryParse(valB, out valBnum))
                 {
-                    Console.WriteLine("Error!");
+                    Console.WriteLine("Error! That isnt a Number");
                 }
             }
 
