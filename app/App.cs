@@ -48,77 +48,6 @@ namespace math_opp
 
         }
 
-        private void ohmLaw()
-        {
-
-            Console.WriteLine(@"
-
-            Ohms Law is used to calculate the Voltage, Current, Resistance, & Power within a circuit. It is usualy depicted like this.
-
-            Voltage = Current * Resistance (input => sv)
-
-            or
-
-            Power = Voltage * Current (input => sp)
-
-            Which opperation do you want to solve?
-        ");
-
-            var oppChoice = "";
-
-            while (oppChoice == "")
-            {
-
-                oppChoice = Console.ReadLine().ToLower();
-
-
-                if (oppChoice == "sv")
-                {
-                    Console.WriteLine("     You chose to solve for Voltage");
-                }
-                else if (oppChoice == "sp")
-                {
-                    Console.WriteLine("     You chose to solve for Power");
-                }
-                else
-                {
-                    Console.WriteLine("     Invalid User Imput");
-                    oppChoice = "";
-                }
-
-                // switch (oppChoice)
-                // {
-                //     case "sv":
-                //         Console.WriteLine("     You chose to solve for Voltage");
-                //         break;
-                //     case "sp":
-                //         Console.WriteLine("     You chose to solve for Power");
-                //         break;
-                //     default:
-                //         oppChoice = "";
-                //         Console.WriteLine("     Invalid User Imput");
-                //         break;
-                // }
-
-                // var valAnum = 0.0;
-
-                // while (valAnum == 0.0)
-                // {
-                //     Console.WriteLine("    Input value for A..");
-
-                //     var valA = Console.ReadLine();
-
-                //     if (!double.TryParse(valA, out valAnum))
-                //     {
-                //         Console.WriteLine("Error! That isnt a Number");
-                //     }
-                // }
-
-            }
-
-
-        }
-
         public void continueChoice(string choice)
         {
             if (choice == "n")
@@ -134,6 +63,96 @@ namespace math_opp
                 Console.WriteLine("Invalid User Input!");
             }
         }
+
+        // All methods under this line are only temporary
+
+        private void ohmLaw()
+        {
+
+            Console.WriteLine(@"
+
+            Ohms Law is used to calculate the Voltage, Current, Resistance, & Power within a circuit. It is usualy depicted like this.
+
+            Voltage = Current * Resistance (input => sv)
+
+            or
+
+            Power = Voltage * Current (input => sp)
+            ");
+
+            var oppChoice = "";
+
+            while (oppChoice == "")
+            {
+
+                Console.WriteLine("     Which opperation do you want to solve?");
+
+                var option = Console.ReadLine().ToLower();
+
+
+                if (option == "sv")
+                {
+                    voltSolve();
+                }
+                else if (option == "sp")
+                {
+                    Console.WriteLine("     You chose to solve for Power");
+                }
+                else
+                {
+                    Console.WriteLine("     Invalid User Imput");
+                }
+
+            }
+
+
+        }
+
+        private void voltSolve()
+        {
+            Console.WriteLine(@"
+
+            You chose to solve for Voltage
+
+            Voltage = Current * Resistance
+
+            For this application, you will be required to fill in values for Current (I) & Resistance (R)
+
+
+            ");
+
+            var valCurrNum = 0.0;
+
+            while (valCurrNum == 0.0)
+            {
+                Console.WriteLine("     Input value for I (Current)..");
+
+                var valCurrent = Console.ReadLine();
+
+                if (!double.TryParse(valCurrent, out valCurrNum))
+                {
+                    Console.WriteLine("Error! That isnt a Number");
+                }
+
+            }
+
+            // var valAnum = 0.0;
+
+            // while (valAnum == 0.0)
+            // {
+            //     Console.WriteLine("    Input value for A..");
+
+            //     var valA = Console.ReadLine();
+
+            //     if (!double.TryParse(valA, out valAnum))
+            //     {
+            //         Console.WriteLine("Error! That isnt a Number");
+            //     }
+            // }
+
+        }
+
+
 
     }
 }
